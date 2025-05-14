@@ -1,0 +1,164 @@
+.header-top {
+  background-color: var(--text-primary);
+  color: var(--primary);
+  padding: 0.4rem 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top-info {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  gap: 10px;
+}
+
+.header-info i,
+.header-social-icons i {
+  color: var(--heading-text-color);
+  font-size: 1.8rem;
+}
+
+.header-social-icons i:hover {
+  color: var(--text-secondary);
+}
+
+.header-info p {
+  padding-top: 1rem;
+}
+
+.header-social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header Top section: end */
+
+/* Header Hero section: start */
+
+.header-bottom {
+  background-color: var(--primary);
+  width: 100%;
+  padding: 0 10rem;
+}
+
+.logo {
+  height: 8rem;
+}
+
+nav ul li > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--text-primary);
+}
+
+.navigation nav li > a:hover,
+.navigation nav li > a:active {
+  color: var(--heading-text-color);
+}
+
+.navigation i {
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.header-btn {
+  padding: 0.8rem 0.2rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  background-color: var(--heading-text-color);
+  color: var(--primary);
+  border-radius: 1.8rem;
+  /* padding: 0.5rem 0.2rem; */
+}
+
+.header-btn:hover {
+  background-color: var(--text-secondary);
+  color: var(--primary);
+}
+/* Header Hero section: end */
+
+/* Hero section: start  */
+
+.hero {
+  /* background-color: #efefef; */
+  width: 100%;
+  /* padding: 10rem 10rem; */
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  z-index: -1;
+  filter: blur(0.19rem);
+}
+
+.hero-data {
+  position: absolute;
+  top: 20rem;
+  left: 10rem;
+  /* background-color: var(--bg-primary); */
+}
+
+.hero h1,
+.hero p {
+  margin-bottom: 2.4rem;
+}
+
+.hero h1 {
+  width: 50%;
+  color: #0a303a;
+  word-spacing: -5px;
+  font-weight: bolder;
+  font-size: 5.5rem;
+}
+
+.hero p {
+  width: 36%;
+  font-size: 1.6rem;
+}
+
+.hero .book,
+.hero .more {
+  color: var(--primary);
+  margin-right: 30px;
+  padding: 10px 30px;
+  border-radius: 2.5rem;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.hero .book {
+  background-color: var(--text-secondary);
+}
+
+.hero .more {
+  background-color: var(--bg-secondary);
+}
+
+.hero .book:hover,
+.hero .more:hover {
+  background-color: #0a303a;
+  color: #fff;
+}
+
+@media (max-width: 765px) {
+  .header-top {
+    display: none;
+  }
+}
