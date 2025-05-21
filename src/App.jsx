@@ -8,6 +8,7 @@ function App() {
   return (
     <div>
       <TopHeader />
+      <NavBar />
       <Card />
       <ChooseUS />
       <OurServices />
@@ -89,7 +90,7 @@ function ChooseUS() {
             </div>
             <div className="input-first">
               <div>
-                <label for="username">Name</label>
+                <label htmlFor="username">Name</label>
                 <input
                   type="text"
                   id="username"
@@ -356,7 +357,7 @@ function ReliablePestCard({ item }) {
 
 function Qualities() {
   return (
-    <div className="container py-5">
+    <div className="container-fluid qualities">
       <div className="row">
         <div className="col-lg-6 col-md-6 col-12">
           <h2>Make your home safe and clean</h2>

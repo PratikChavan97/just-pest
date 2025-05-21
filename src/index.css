@@ -593,6 +593,10 @@ form button:hover {
     display: block;
   }
 
+  .footer-top {
+    padding: 2rem 5rem;
+  }
+
   .footer-top > div {
     margin-bottom: 1.6rem;
   }
