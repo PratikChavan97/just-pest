@@ -3,7 +3,7 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
         <img
-          src="src/assets/logo/logo.png"
+          src="./../assets/logo/logo.png"
           alt="logo"
           style={{ height: "5rem" }}
         />
