@@ -1,0 +1,51 @@
+.contact-us {
+  background-color: #f7f7f7;
+  font-size: 1.6rem;
+  padding: 3rem 0;
+}
+
+.contact-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-social-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.contact-social-icons i {
+  font-size: 2rem;
+}
+
+.why-us-contact img {
+  height: 12rem;
+}
+
+.why-us-contact-row {
+  padding: 2rem 5rem;
+}
+
+.contact-us h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.location i,
+.location span {
+  color: #1f88e1;
+}
+
+.location span {
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 775px) {
+  .contact-social-icons {
+    margin-bottom: 2rem;
+  }
+}

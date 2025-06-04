@@ -1,10 +1,15 @@
+import { Col, Container, Row } from "react-bootstrap";
+import Button from "./Button";
 import "./module.Footer.css";
+import { Link } from "react-router-dom";
+import FooterBottom from "./FooterBottom";
 
 function Footer() {
   return (
-    <footer>
-      <section className="footer-top container-fluid">
-        <div className="row">
+    <Container fluid>
+      <FooterBottom />
+      {/* <section className="container-fluid">
+        <div className="row footer-top">
           <div className="col-lg-2 col-md-4 col-sm-6 col-12">
             <h3>About</h3>
             <div className="footer-links">
@@ -59,18 +64,20 @@ function Footer() {
                 />
               </div>
               <div className="col-lg-3 col-md-2 col-12">
-                <button className="btn btn-lg rounded-3">Send</button>
-              </div>
+                <Button classname="btn btn-lg rounded-3">Send</Button>
+                {/* <button className="btn btn-lg rounded-3">Send</button> */}
+      {/* </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="footer-bottom container-fluid">
-        <div className="row">
+      {/* <section className="container-fluid">
+        <div className="row footer-bottom ">
           <div className="copyright col-lg-10 col-md-10 col-sm-12 col-12">
             <p>
-              &copy; 2022 Mokab - Pest Control Company Inc. All Rights Reserved
+              &copy; 2022 Just Pest - Pest Control Company Inc. All Rights
+              Reserved
             </p>
           </div>
           <div className="footer-social-icons col-lg-2 col-md-2 col-sm-12 col-12">
@@ -80,8 +87,8 @@ function Footer() {
             <i className="fa-brands fa-linkedin"></i>
           </div>
         </div>
-      </section>
-    </footer>
+      </section> */}
+    </Container>
   );
 }
 

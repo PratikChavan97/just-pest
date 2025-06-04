@@ -15,7 +15,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.2%;
 }
 
 body {
@@ -33,18 +33,63 @@ footer {
   width: 100%;
 }
 
+.hero {
+  padding: 0 10rem;
+}
+
+.hero h3 {
+  font-size: 3vw;
+  width: 50vw;
+}
+
+.hero p {
+  font-size: 0.8vw;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+.hero .booknow,
+.hero .discover {
+  border: none;
+  color: #fff;
+  border-radius: 3vw;
+  font-size: 1.2vw;
+  padding: 1vw 1.5vw;
+  font-weight: bold;
+}
+
+.booknow {
+  background-color: #2bd3fe;
+}
+
+.discover {
+  border-radius: 3vw;
+  font-size: 1.2vw;
+  padding: 1vw 1.5vw;
+  background-color: #71b950;
+}
+
+.booknow:hover,
+.discover:hover {
+  background-color: #212529;
+}
+
 /* Hero section: ends  */
 
 /* sub-hero section: start */
 .sub-hero {
   /* height: 80rem; */
-  /* padding: -5rem 10rem; */
-  position: relative;
-  display: flex;
+  padding: 2rem 10rem;
+  /* position: relative; */
+  /* display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 1rem;
-  align-items: center;
+  align-items: center; */
   /* border: 2px solid red; */
 }
 
@@ -79,26 +124,29 @@ footer {
 .choose form {
   /* width: 22%; */
   background-color: var(--text-secondary);
+  border-radius: 1rem;
 }
 
 .hero-form-header {
-  width: 100%;
+  /* width: 100%;
   /* height: 8rem; */
   background-color: var(--heading-text-color);
   color: var(--primary);
-  display: flex;
+  text-align: center;
+  /* vertical-align: center; */
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   /* position: absolute; */
   /* left: 0; */
-  font-size: 3rem;
-  /* padding: 4rem 1rem 0; */
-  border-radius: 1.7rem 1.7rem 0 0;
+  /* font-size: 3rem; */
+
+  /* border-radius: 1.7rem 1.7rem 0 0; */
+  padding: 4rem 1rem 0;
   font-weight: bold;
 }
-
-form {
+*/ form {
   position: relative;
   border-radius: 1.7rem;
 }
@@ -153,40 +201,41 @@ form button:hover {
 /* services-section: start  */
 .services {
   background-color: #efefef;
-  padding: 8rem 10rem;
+  padding: 5rem 10rem;
   text-align: center;
 }
 
 .services h2 {
   font-size: 4.5rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 2rem;
 }
 
 .services > p {
-  width: 40%;
-  margin: 0 auto 1.4rem;
+  /* width: 40%; */
+  margin-bottom: 2rem;
   font-size: 1.7rem;
 }
 
 .card-container {
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
+  width: 100%;
 }
 
 .service-card {
   background-color: #fff;
   padding: 1rem 1rem;
   border-radius: 0.4rem;
-  width: 30%;
-  position: relative;
+  /* width: 100%; */
+  /* position: relative; */
   /* border: 1px solid red; */
 }
 
 .service-card img {
-  width: 100%;
+  /* width: 100%; */
   border-radius: 0.3rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .service-card h3 {
@@ -195,10 +244,11 @@ form button:hover {
 }
 
 .service-card p {
-  width: 80%;
+  /* width: 80%; */
   margin: auto;
   text-align: center;
   margin-bottom: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .service-card button {
@@ -210,6 +260,7 @@ form button:hover {
   font-size: 1.5rem;
   position: relative;
   bottom: -2.5rem;
+  font-weight: bold;
 }
 
 .service-card button:hover {
@@ -314,7 +365,7 @@ form button:hover {
 .small-card {
   width: 100%;
   background-color: #e0e0e0;
-  padding: 10px 225px;
+  padding: 1rem 10rem;
 }
 
 .inner-card {
@@ -346,7 +397,7 @@ form button:hover {
 
 .services-card {
   text-align: center;
-  padding: 50px 225px 100px;
+  padding: 5rem 10rem;
 }
 
 .services-card h2 {
@@ -357,7 +408,7 @@ form button:hover {
 
 .services-card > p {
   margin-bottom: 4rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .inner-service-card {
@@ -403,7 +454,7 @@ form button:hover {
 
 /* qualities-section: start  */
 .qualities {
-  padding: 100px 225px;
+  padding: 6rem 10rem;
   background-color: #efefef;
   position: relative;
 }
@@ -427,21 +478,22 @@ form button:hover {
 }
 
 .qualities img {
-  height: 300px;
+  width: 100%;
   border-radius: 10px;
 }
 
 .fa-greater-than {
   color: #fff;
-  background-color: var(--text-secondary);
+  background-color: #0a303a;
   border-radius: 50%;
-  font-size: 10px;
-  padding: 3px;
+  font-size: 1rem;
+  padding: 0.5rem;
   margin-right: 5px;
 }
 
 .qualities span {
   color: #545968;
+  font-size: 1.6rem;
 }
 
 .quality-footer {
@@ -479,7 +531,7 @@ form button:hover {
 .tiles-section {
   position: relative;
   width: 100%;
-  padding: 10rem 10rem;
+  padding: 5rem 10rem;
   text-align: center;
 }
 
@@ -590,7 +642,17 @@ form button:hover {
   }
 
   .header-top {
-    display: block;
+    padding: 0;
+    /* display: none; */
+  }
+
+  .sub-hero {
+    padding: 1rem 2rem;
+    gap: 2rem;
+  }
+
+  .sub-hero img {
+    height: 80%;
   }
 
   .footer-top {
@@ -619,5 +681,13 @@ form button:hover {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .qualities {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
   }
 }

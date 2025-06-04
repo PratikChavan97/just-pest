@@ -1,0 +1,33 @@
+.navigation {
+  padding: 0 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* color: black; */
+}
+
+.navigation img {
+  width: 8rem;
+}
+
+.navigation .nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4rem;
+}
+
+.nav-container .nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation ul li a {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.navigation ul li a:hover {
+  border-bottom: 1px solid black;
+  transition: all 2s;
+}

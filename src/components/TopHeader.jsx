@@ -1,8 +1,7 @@
+import { Link } from "react-router-dom";
+import "./module.TopHeader.css";
+
 const topHeaderData = [
-  {
-    icon: "fa-solid fa-envelope-open",
-    text: "info@example.com",
-  },
   {
     icon: "fa-solid fa-phone-volume",
     text: "+333 333 333",
@@ -23,22 +22,26 @@ const topSocialIcons = [
 function TopHeader() {
   return (
     <div className="container-fluid">
-      <div className="row">
-        <div className="header-top">
-          <div className="col-lg-9 col-md-9">
-            <div className="header-top-info">
-              {topHeaderData.map((item) => (
-                <TopHeaderContactDetails item={item} key={item.text} />
-              ))}
+      <div className="row header-top">
+        <div className="col-lg-10 col-md-10 col-12">
+          <div className="header-top-info container">
+            <div className="header-info">
+              <Link to="mailto:info@justpest.in">
+                <i className="fa-solid fa-envelope-open"></i>
+                <p>info@justpest.in</p>
+              </Link>
             </div>
+            {topHeaderData.map((item) => (
+              <TopHeaderContactDetails item={item} key={item.text} />
+            ))}
           </div>
+        </div>
 
-          <div className="col-lg-3 col-md-3">
-            <div className="header-social-icons">
-              {topSocialIcons.map((item) => (
-                <TopHeaderSocialIcons item={item} key={item} />
-              ))}
-            </div>
+        <div className="col-lg-2 col-md-2 col-12">
+          <div className="header-social-icons">
+            {topSocialIcons.map((item) => (
+              <TopHeaderSocialIcons item={item} key={item} />
+            ))}
           </div>
         </div>
       </div>
