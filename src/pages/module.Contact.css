@@ -1,0 +1,58 @@
+.contact {
+  padding: 5rem 0;
+  font-size: 1.6rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contact-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  border-bottom: 1px solid gray;
+  padding-top: 1.5rem;
+}
+
+.contact-card ul {
+  list-style: none;
+}
+
+.contact-card i {
+  font-size: 2.5rem;
+  background-color: #71b950;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.contact-card h4 {
+  font-size: 2rem;
+}
+
+.contact form label,
+.contact form input,
+.contact form select {
+  width: 100%;
+  display: block;
+}
+
+.contact form input,
+.contact form textarea,
+.contact form select {
+  border: 1px solid black;
+  font-size: 1.4rem;
+}
+
+.contact form textarea {
+  height: 10rem;
+}
+
+.contact form select {
+  padding: 0.5rem 0;
+}

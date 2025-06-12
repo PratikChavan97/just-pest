@@ -1,0 +1,50 @@
+.services {
+  background-color: #efefef;
+  padding: 5rem 10rem;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 4.5rem;
+  margin-bottom: 2rem;
+}
+
+.services p {
+  /* width: 40%; */
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 1rem 1rem;
+  border-radius: 0.4rem;
+  width: 80%;
+  padding: 2rem 5rem;
+}
+
+.service-card h3 {
+  font-size: 2.5rem;
+}
+
+.service-card p {
+  font-size: 1.4rem;
+}
+.service-card a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.service-card img {
+  /* width: 100%; */
+  border-radius: 0.3rem;
+  margin-bottom: 2rem;
+}
+
+.service-card button {
+  position: relative;
+  top: 3.8rem;
+  padding: 1rem 4rem;
+  margin-bottom: 1.5rem;
+}

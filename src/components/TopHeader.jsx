@@ -1,65 +1,34 @@
 import { Link } from "react-router-dom";
 import "./module.TopHeader.css";
-
-const topHeaderData = [
-  {
-    icon: "fa-solid fa-phone-volume",
-    text: "+333 333 333",
-  },
-  {
-    icon: "fa-solid fa-bell",
-    text: "Office Hours: 8AM - 11PM",
-  },
-];
-
-const topSocialIcons = [
-  "fa-brands fa-facebook-f",
-  "fa-brands fa-twitter",
-  "fa-brands fa-youtube",
-  "fa-brands fa-linkedin",
-];
+import { Container } from "react-bootstrap";
 
 function TopHeader() {
   return (
-    <div className="container-fluid">
-      <div className="row header-top">
-        <div className="col-lg-10 col-md-10 col-12">
-          <div className="header-top-info container">
-            <div className="header-info">
-              <Link to="mailto:info@justpest.in">
-                <i className="fa-solid fa-envelope-open"></i>
-                <p>info@justpest.in</p>
-              </Link>
-            </div>
-            {topHeaderData.map((item) => (
-              <TopHeaderContactDetails item={item} key={item.text} />
-            ))}
+    <Container fluid className="header-top">
+      <Container className="header-top-container">
+        <div className="header-top-info">
+          <div className="header-info">
+            <i className="fa-solid fa-envelope-open"></i>
+            <Link to="mailto:info@justpest.in">info@justpest.in</Link>
+          </div>
+          <div className="header-info">
+            <i className="fa-solid fa-phone-volume"></i>
+            <span>+91 123467890</span>
+          </div>
+          <div className="header-info">
+            <i className="fa-solid fa-bell"></i>
+            <span>Office Hour: 8AM to 11PM</span>
           </div>
         </div>
-
-        <div className="col-lg-2 col-md-2 col-12">
-          <div className="header-social-icons">
-            {topSocialIcons.map((item) => (
-              <TopHeaderSocialIcons item={item} key={item} />
-            ))}
-          </div>
+        <div className="header-social-icons">
+          <i className="fa-brands fa-facebook-f"></i>
+          <i className="fa-brands fa-twitter"></i>
+          <i className="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-whatsapp"></i>
         </div>
-      </div>
-    </div>
+      </Container>
+    </Container>
   );
-}
-
-function TopHeaderContactDetails({ item }) {
-  return (
-    <div className="header-info">
-      <i className={item.icon}></i>
-      <p>{item.text}</p>
-    </div>
-  );
-}
-
-function TopHeaderSocialIcons({ item }) {
-  return <i className={item}></i>;
 }
 
 export default TopHeader;

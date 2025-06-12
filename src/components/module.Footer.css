@@ -52,6 +52,10 @@
   /* color: var(--bg-primary); */
 }
 
+.location p {
+  font-size: 1.4rem;
+}
+
 /* .footer-bottom {
   background-color: var(--text-primary);
   color: var(--primary);

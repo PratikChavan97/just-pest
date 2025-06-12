@@ -1,15 +1,17 @@
+import { Card, Col, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
 function ServicesCard({ item }) {
   return (
-    <div className="service-card col-lg-3 col-md-6 col-12">
-      <img
-        src={item.image}
-        alt={item.altText}
-        className="card-top-img img-fluid"
-      />
-      <h3 className="card-title">{item.title}</h3>
-      <p className="card-text">{item.text}</p>
-      <button>Discover More</button>
-    </div>
+    <Col xs={12} md="6" className="service-card">
+      <img src={item.image} alt={item.title} className="img-fluid" />
+      <h3>{item.title}</h3>
+      <p>{item.text}</p>
+
+      <button>
+        <Link to={item.linkTo}>Discover More</Link>
+      </button>
+    </Col>
   );
 }
 

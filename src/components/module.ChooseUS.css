@@ -1,0 +1,88 @@
+/* <div className="container-fluid d-flex justify-content-center align-items-center">
+      <div className="row sub-hero gx-5">
+        <div className="col-lg-3 col-md-3 col-12 d-flex justify-content-center align-items-center">
+          
+        </div>
+
+        <div className="col-lg-5 col-md-5 col-12 d-flex flex-column justify-content-center align-items-start">
+          
+        </div>
+
+        <div className="col-lg-4 col-md-4 col-12 choose">
+          
+        </div>
+      </div>
+    </div> */
+
+.choose {
+  padding: 3rem 0;
+}
+
+.choose-img {
+  width: 100%;
+  border-radius: 2rem;
+  /* margin-right: 5rem; */
+  box-shadow: 0 5px 5px 5px #dfdfdf;
+}
+
+.choose-container {
+  justify-content: center;
+  align-items: center;
+  /* gap: 1rem; */
+}
+
+.choose-why {
+  padding-left: 2rem;
+}
+
+.sub-hero h2 {
+  font-size: 3.3rem;
+  margin-bottom: 2rem;
+}
+
+.sub-hero p {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+.sub-hero i {
+  margin-right: 0.8rem;
+}
+
+.sub-hero span {
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
+
+.sub-image {
+  width: 26%;
+}
+
+.sub-image img {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.choose form {
+  background-color: var(--text-secondary);
+  border-radius: 2rem;
+  position: relative;
+  top: -9.4rem;
+}
+
+.choose .hero-form-header h3 {
+  text-align: center;
+  background-color: var(--heading-text-color);
+  padding: 2rem 0;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.choose .input-first {
+  padding: 2rem;
+}
+
+.choose .input-first input,
+.choose .input-first textarea {
+  width: 100%;
+  font-size: 1.4rem;
+}

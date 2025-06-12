@@ -26,13 +26,6 @@ body {
 
 /* Header Top section: start */
 
-#header,
-main,
-section,
-footer {
-  width: 100%;
-}
-
 .hero {
   padding: 0 10rem;
 }
@@ -81,80 +74,6 @@ footer {
 /* Hero section: ends  */
 
 /* sub-hero section: start */
-.sub-hero {
-  /* height: 80rem; */
-  padding: 2rem 10rem;
-  /* position: relative; */
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
-  align-items: center; */
-  /* border: 2px solid red; */
-}
-
-.sub-hero h2 {
-  font-size: 3.3rem;
-  margin-bottom: 2rem;
-}
-
-.sub-hero p {
-  font-size: 1.6rem;
-  margin-bottom: 3rem;
-}
-
-.sub-hero i {
-  margin-right: 0.8rem;
-}
-
-.sub-hero span {
-  font-size: 1.4rem;
-  letter-spacing: 0.1rem;
-}
-
-.sub-image {
-  width: 26%;
-}
-
-.sub-image img {
-  border-radius: 0.5rem;
-  width: 100%;
-}
-
-.choose form {
-  /* width: 22%; */
-  background-color: var(--text-secondary);
-  border-radius: 1rem;
-}
-
-.hero-form-header {
-  /* width: 100%;
-  /* height: 8rem; */
-  background-color: var(--heading-text-color);
-  color: var(--primary);
-  text-align: center;
-  /* vertical-align: center; */
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-  /* position: absolute; */
-  /* left: 0; */
-  /* font-size: 3rem; */
-
-  /* border-radius: 1.7rem 1.7rem 0 0; */
-  padding: 4rem 1rem 0;
-  font-weight: bold;
-}
-*/ form {
-  position: relative;
-  border-radius: 1.7rem;
-}
-
-.input-first {
-  padding: 3rem 3rem 5rem;
-  /* margin-top: 10rem; */
-}
 
 .input-first > div {
   margin-bottom: 0.4rem;
@@ -199,44 +118,6 @@ form button:hover {
 /* sub-hero section: ends */
 
 /* services-section: start  */
-.services {
-  background-color: #efefef;
-  padding: 5rem 10rem;
-  text-align: center;
-}
-
-.services h2 {
-  font-size: 4.5rem;
-  margin-bottom: 2rem;
-}
-
-.services > p {
-  /* width: 40%; */
-  margin-bottom: 2rem;
-  font-size: 1.7rem;
-}
-
-.card-container {
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
-  width: 100%;
-}
-
-.service-card {
-  background-color: #fff;
-  padding: 1rem 1rem;
-  border-radius: 0.4rem;
-  /* width: 100%; */
-  /* position: relative; */
-  /* border: 1px solid red; */
-}
-
-.service-card img {
-  /* width: 100%; */
-  border-radius: 0.3rem;
-  margin-bottom: 2rem;
-}
 
 .service-card h3 {
   font-size: 2.1rem;

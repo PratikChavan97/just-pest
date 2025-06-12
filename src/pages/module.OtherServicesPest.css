@@ -1,0 +1,52 @@
+.other-services {
+  background-color: #f4f4f5;
+}
+
+.other-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #71b950;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  gap: 1.5rem;
+  height: min-content;
+}
+
+.other-button-container button {
+  width: 100%;
+  font-size: 1.5rem;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  background-color: #34631e;
+  color: #fff;
+}
+
+.other-services h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 1.5rem;
+}
+
+.other-services h3 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.other-services p,
+.other-services ul li {
+  font-size: 1.5rem;
+}
+
+.other-services span {
+  font-weight: bold;
+}
+
+.other-services h5 {
+  font-size: 1.6rem;
+}
+
+.other-services ol li {
+  font-size: 1.4rem;
+}

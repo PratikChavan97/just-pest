@@ -1,0 +1,26 @@
+.floating {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  position: fixed;
+  right: 5rem;
+  bottom: 3rem;
+}
+
+.floating i {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.floating .fa-phone {
+  background-color: #2196f3;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.floating .fa-whatsapp {
+  background-color: #71b950;
+  padding: 1rem;
+  border-radius: 50%;
+}

@@ -7,88 +7,81 @@ import FooterBottom from "./FooterBottom";
 function Footer() {
   return (
     <Container fluid>
-      <FooterBottom />
-      {/* <section className="container-fluid">
-        <div className="row footer-top">
-          <div className="col-lg-2 col-md-4 col-sm-6 col-12">
-            <h3>About</h3>
-            <div className="footer-links">
-              <a href="#" target="_blank">
-                Pricing
-              </a>
-              <a href="#" target="_blank">
-                Careers
-              </a>
-              <a href="#" target="_blank">
-                Contact Us
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-2 col-md-4 col-sm-6 col-12">
-            <h3>Help</h3>
-            <div className="footer-links">
-              <a href="#" target="_blank">
-                Terms & Conditions
-              </a>
-              <a href="#" target="_blank">
-                Customer Support
-              </a>
-              <a href="#" target="_blank">
-                Contact Us
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-4 col-sm-12 col-12">
-            <h3>Useful Links</h3>
-            <div className="footer-links">
-              <a href="#" target="_blank">
-                Cleaning Services
-              </a>
-              <a href="#" target="_blank">
-                Disinfection & Sanitization
-              </a>
-              <a href="#" target="_blank">
-                Anti Termite Services
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-5 col-md-12 col-sm-12 col-12 container-fluid">
-            <h3 className="newsletter col-12">Subscribe To Our Newsletter</h3>
-            <div className="row ">
-              <div className="col-lg-9 col-md-10 col-12">
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                  className="email-input rounded-4 form-control"
-                />
-              </div>
-              <div className="col-lg-3 col-md-2 col-12">
-                <Button classname="btn btn-lg rounded-3">Send</Button>
-                {/* <button className="btn btn-lg rounded-3">Send</button> */}
-      {/* </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      {/* <section className="container-fluid">
-        <div className="row footer-bottom ">
-          <div className="copyright col-lg-10 col-md-10 col-sm-12 col-12">
+      <Row className="footer-top">
+        <Col xs={12} lg="3" md="4">
+          {/* <h3>About</h3> */}
+          <div className="footer-links">
+            <Link to="/" target="_blank">
+              <img
+                src="src/assets/logo/logo-1.png"
+                alt="logo-1"
+                style={{
+                  height: "5rem",
+                  display: "block",
+                  margin: "0 auto",
+                }}
+              />
+            </Link>
             <p>
-              &copy; 2022 Just Pest - Pest Control Company Inc. All Rights
-              Reserved
+              Just Pest Management Services is a full pest control service, for
+              residential, commercial and industrial pest control.
             </p>
           </div>
-          <div className="footer-social-icons col-lg-2 col-md-2 col-sm-12 col-12">
-            <i className="fa-brands fa-facebook-f"></i>
-            <i className="fa-brands fa-twitter"></i>
-            <i className="fa-brands fa-youtube"></i>
-            <i className="fa-brands fa-linkedin"></i>
+        </Col>
+        <Col xs={12} lg="3" md="4">
+          <h3>Quick Links</h3>
+          <div className="footer-links">
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="services">Services</Link>
+            <Link to="contact">Contact Us</Link>
           </div>
-        </div>
-      </section> */}
+        </Col>
+        <Col xs={12} lg="3" md="4">
+          <h3>Our Services</h3>
+          <div className="footer-links">
+            <Link to="#" target="_blank">
+              Pest Control
+            </Link>
+            <Link to="#" target="_blank">
+              Vector Control
+            </Link>
+            <Link to="#" target="_blank">
+              Rodents Control
+            </Link>
+          </div>
+        </Col>
+        <Col xs={12} lg="3" md="12">
+          <h3 className="newsletter col-12">Our Locations</h3>
+          <div className="row location">
+            <p>Grant Road</p>
+            <p>Dombivali</p>
+            <p>Powai</p>
+            <p>Pune</p>
+          </div>
+        </Col>
+      </Row>
+      <FooterBottom />
     </Container>
+    //   <div className="row footer-top">
+    //       <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+
+    //         </div>
+    //       </div>
+    //       <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+    //
+    //         </div>
+    //       </div>
+    //       <div className="col-lg-3 col-md-4 col-sm-12 col-12">
+    //
+    //       </div>
+    //       <div className="col-lg-5 col-md-12 col-sm-12 col-12 container-fluid">
+    //
+    //         </div>
+    //       </div>
+    //     </div>
+    // <FooterBottom />
+    // </Container>
   );
 }
 

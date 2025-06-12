@@ -1,44 +1,56 @@
+import { Container, Row } from "react-bootstrap";
 import ServicesCard from "./ServicesCard";
+import "./module.OurServices.css";
 
 function OurServices() {
   const servicesData = [
     {
       image: "src/assets/images/ser-1.jpg",
       altText: "ser-1",
-      title: "Anti Termite Services",
+      title: "Pest Control",
       text: "Get protected from Viruses & Diseases causing bacteria with a deep sanitization and Disinfection service.",
+      linkTo: "/services/pest-control",
     },
     {
       image: "src/assets/images/ser-2.jpg",
       altText: "ser-2",
-      title: "Cleaning Services",
+      title: "Vector Control",
       text: "Get protected from Viruses & Diseases causing bacteria with a deep sanitization and Disinfection service.",
+      linkTo: "/services/vector-control",
     },
     {
       image: "src/assets/images/ser-3.jpg",
       altText: "ser-3",
-      title: "General Services",
+      title: "Rodent Controls",
       text: "Get protected from Viruses & Diseases causing bacteria with a deep sanitization and Disinfection service.",
+      linkTo: "/services/rodent-control",
+    },
+    {
+      image: "src/assets/images/ser-1.jpg",
+      altText: "ser-4",
+      title: "Other Services",
+      text: "Get protected from Viruses & Diseases causing bacteria with a deep sanitization and Disinfection service.",
+      linkTo: "/services/other-services",
     },
   ];
 
   return (
-    <div className="container-fluid text-center">
-      <div className="services">
+    <Container fluid className="services text-center">
+      <div className="">
         <h2>Our Services</h2>
         <p>
           Get protected from Viruses & Diseases causing bacteria with a deep
           sanitization and Disinfection service.
         </p>
-        <div className="container-fluid">
-          <div className="row card-container">
+        <Container>
+          <Row className="g-5">
             {servicesData.map((item) => (
               <ServicesCard item={item} key={item.title} />
             ))}
-          </div>
-        </div>
+          </Row>
+        </Container>
       </div>
-    </div>
+    </Container>
   );
 }
 

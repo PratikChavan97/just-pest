@@ -1,13 +1,14 @@
 import { Breadcrumb, Container } from "react-bootstrap";
 import "./module.BreadcrumbApp.css";
+import { Link } from "react-router-dom";
 
 function BreadcrumbApp({ children }) {
   return (
-    <Container fluid>
-      <Breadcrumb className="breadcrumb-app">
-        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-        <Breadcrumb.Item active>{children}</Breadcrumb.Item>
-      </Breadcrumb>
+    <Container fluid className="breadcrumb-app">
+      <p>
+        <Link to="/">Home</Link>
+      </p>
+      <p>{children}</p>
     </Container>
   );
 }
