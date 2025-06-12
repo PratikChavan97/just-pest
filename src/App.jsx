@@ -12,6 +12,7 @@ import OtherServicesPest from "./pages/OtherServicesPest";
 import RodentControl from "./components/RodentControl";
 
 import VectorControl from "./components/VectorControl";
+import PestControl from "./components/PestControl";
 
 // import About from "./pages/About";
 // import About from "./pages/About";
@@ -52,7 +53,7 @@ function App() {
         },
         {
           path: "/services/pest-control",
-          element: "Pest Control",
+          element: <PestControl />,
         },
         {
           path: "/services/vector-control",

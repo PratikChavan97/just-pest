@@ -11,6 +11,7 @@
   border-radius: 2rem;
   gap: 1.5rem;
   height: min-content;
+  margin-bottom: 2rem;
 }
 
 .other-button-container button {
@@ -49,4 +50,20 @@
 
 .other-services ol li {
   font-size: 1.4rem;
+}
+
+.other-services q {
+  font-style: italic;
+  font-size: 1.8rem;
+}
+
+.other-services select {
+  font-size: 1.5rem;
+  border: 0;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.other-services span.phone {
+  color: #2196f3;
 }

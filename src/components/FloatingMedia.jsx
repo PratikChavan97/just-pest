@@ -4,8 +4,8 @@ import "./module.FloatingMedia.css";
 function FloatingMedia() {
   return (
     <Container className="floating">
-      <i class="fa-solid fa-phone"></i>
-      <i class="fa-brands fa-whatsapp"></i>
+      <i className="fa-solid fa-phone"></i>
+      <i className="fa-brands fa-whatsapp"></i>
     </Container>
   );
 }
