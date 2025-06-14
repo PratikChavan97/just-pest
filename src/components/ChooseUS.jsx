@@ -8,7 +8,7 @@ function ChooseUS() {
         <Row className="choose-container">
           <Col xs={12} md="3">
             <img
-              src="src/assets/images/sub-hero.jpg"
+              src="/assets/images/sub-hero.jpg"
               alt="sub-hero"
               className="choose-img"
             />

@@ -13,12 +13,13 @@ function Footer() {
           <div className="footer-links">
             <Link to="/" target="_blank">
               <img
-                src="src/assets/logo/logo-1.png"
+                src="/assets/logo/logo-1.png"
                 alt="logo-1"
                 style={{
-                  height: "5rem",
                   display: "block",
                   margin: "0 auto",
+
+                  height: "10rem",
                 }}
               />
             </Link>
@@ -63,25 +64,6 @@ function Footer() {
       </Row>
       <FooterBottom />
     </Container>
-    //   <div className="row footer-top">
-    //       <div className="col-lg-2 col-md-4 col-sm-6 col-12">
-
-    //         </div>
-    //       </div>
-    //       <div className="col-lg-2 col-md-4 col-sm-6 col-12">
-    //
-    //         </div>
-    //       </div>
-    //       <div className="col-lg-3 col-md-4 col-sm-12 col-12">
-    //
-    //       </div>
-    //       <div className="col-lg-5 col-md-12 col-sm-12 col-12 container-fluid">
-    //
-    //         </div>
-    //       </div>
-    //     </div>
-    // <FooterBottom />
-    // </Container>
   );
 }
 

@@ -4,7 +4,7 @@ function Card() {
   return (
     <div className="card">
       <img
-        src="src/assets/images/slider.jpg"
+        src="/assets/images/slider.jpg"
         alt="slider"
         className="card-img img-fluid"
       />

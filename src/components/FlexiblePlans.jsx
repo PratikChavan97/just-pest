@@ -32,7 +32,7 @@ function FlexiblePlans() {
     <div className="container py-5">
       <div className="card">
         <img
-          src="src/assets/images/slider.jpg"
+          src="/assets/images/slider.jpg"
           alt="slider"
           className="card-img"
         />
@@ -45,7 +45,7 @@ function FlexiblePlans() {
             <div className="row tiles py-5">
               <div className="tile col-lg-2 col-md-3 col-4">
                 <img
-                  src="src/assets/icons/ladybug-icon.png"
+                  src="/assets/icons/ladybug-icon.png"
                   alt="ladybug-icon"
                   className="tile-img"
                 />

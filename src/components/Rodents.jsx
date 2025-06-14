@@ -5,7 +5,6 @@ function Rodents() {
   return (
     <Container fluid>
       <h2>Rodent Control</h2>
-      <img />
 
       <h3>What is a Rodent and Rodent Control?</h3>
       <p>

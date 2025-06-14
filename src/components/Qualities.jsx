@@ -46,7 +46,7 @@ function Qualities() {
         <div className="col-lg-6 col-md-12 col-12">
           <img
             className="img-fluid p-4 rounded-5"
-            src="src/assets/images/about.jpg"
+            src="/assets/images/about.jpg"
             alt="about"
           />
         </div>

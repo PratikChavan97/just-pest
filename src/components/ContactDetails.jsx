@@ -10,7 +10,7 @@ function ContactDetails() {
         <Row className="why-us-contact-row">
           <Col xs={12} lg="6" md="6">
             <div className="why-us-contact">
-              <img src="src/assets/logo/logo-1.png" alt="just-pest-logo" />
+              <img src="/assets/logo/logo-1.png" alt="just-pest-logo" />
               <p>
                 Just Pest Management Services is the leading pest management
                 company, which provides pest control services in eliminating Bed

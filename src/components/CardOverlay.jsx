@@ -2,7 +2,7 @@ function CardOverlay() {
   return (
     <div className="card bg-dark text-white">
       <img
-        src="src\assets\images\slider.jpg"
+        src="\assets\images\slider.jpg"
         className="card-img img-fluid"
         alt="slider"
       />

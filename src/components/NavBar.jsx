@@ -16,7 +16,7 @@ function NavBar() {
     <Container className="navigation">
       <div className="navbar-container">
         <Link to="/">
-          <img src="src/assets/logo/logo-1.png" alt="logo-1" />
+          <img src="/assets/logo/logo-1.png" alt="logo-1" />
         </Link>
 
         <Navbar expand="lg">

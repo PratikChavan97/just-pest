@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 function BreadcrumbApp({ children }) {
   return (
     <Container fluid className="breadcrumb-app">
-      <p>
+      {/* <p>
         <Link to="/">Home</Link>
       </p>
-      <p>{children}</p>
+      <p>{children}</p> */}
     </Container>
   );
 }
