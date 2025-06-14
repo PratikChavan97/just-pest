@@ -28,8 +28,8 @@ function OtherServices() {
     },
   ];
   return (
-    <div className="container-fluid">
-      <div className="row small-card">
+    <div className="container-fluid small-card">
+      <div className="row">
         {otherServicesData.map((item) => (
           <OtherServicesCard item={item} key={item.title} />
         ))}
