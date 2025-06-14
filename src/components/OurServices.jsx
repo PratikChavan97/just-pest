@@ -5,28 +5,28 @@ import "./module.OurServices.css";
 function OurServices() {
   const servicesData = [
     {
-      image: "src/assets/images/ser-1.jpg",
+      image: "/assets/images/ser-1.jpg",
       altText: "ser-1",
       title: "Pest Control",
       text: "Get protected from Viruses & Diseases causing bacteria with a deep sanitization and Disinfection service.",
       linkTo: "/services/pest-control",
     },
     {
-      image: "src/assets/images/ser-2.jpg",
+      image: "/assets/images/ser-2.jpg",
       altText: "ser-2",
       title: "Vector Control",
       text: "Get protected from Viruses & Diseases causing bacteria with a deep sanitization and Disinfection service.",
       linkTo: "/services/vector-control",
     },
     {
-      image: "src/assets/images/ser-3.jpg",
+      image: "/assets/images/ser-3.jpg",
       altText: "ser-3",
       title: "Rodent Controls",
       text: "Get protected from Viruses & Diseases causing bacteria with a deep sanitization and Disinfection service.",
       linkTo: "/services/rodent-control",
     },
     {
-      image: "src/assets/images/ser-1.jpg",
+      image: "/assets/images/ser-1.jpg",
       altText: "ser-4",
       title: "Other Services",
       text: "Get protected from Viruses & Diseases causing bacteria with a deep sanitization and Disinfection service.",
