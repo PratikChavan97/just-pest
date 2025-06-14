@@ -42,12 +42,10 @@ function OurServices() {
           Get protected from Viruses & Diseases causing bacteria with a deep
           sanitization and Disinfection service.
         </p>
-        <Container>
-          <Row className="g-5">
-            {servicesData.map((item) => (
-              <ServicesCard item={item} key={item.title} />
-            ))}
-          </Row>
+        <Container className="d-flex flex-wrap justify-content-center align-items-center">
+          {servicesData.map((item) => (
+            <ServicesCard item={item} key={item.title} />
+          ))}
         </Container>
       </div>
     </Container>

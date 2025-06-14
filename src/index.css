@@ -187,7 +187,7 @@ form button:hover {
 }
 
 .cards {
-  background-color: #fed000;
+  background-color: #71b950;
   /* width: 100%; */
   padding: 3rem 4.5rem;
   border-radius: 5px;
@@ -215,7 +215,7 @@ form button:hover {
 }
 
 .cards h2 {
-  color: #ffe054;
+  color: #fff;
   font-size: 50px;
   font-weight: bolder;
 }

@@ -19,8 +19,10 @@
   background-color: #fff;
   padding: 1rem 1rem;
   border-radius: 0.4rem;
-  width: 80%;
+  width: 100%;
   padding: 2rem 5rem;
+  /* margin-right: 1rem; */
+  margin-bottom: 1rem;
 }
 
 .service-card h3 {
@@ -44,7 +46,6 @@
 
 .service-card button {
   position: relative;
-  top: 3.8rem;
+
   padding: 1rem 4rem;
-  margin-bottom: 1.5rem;
 }
