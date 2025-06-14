@@ -103,3 +103,27 @@
     bottom: 1rem;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .hero h3 {
+    font-size: 1.7rem;
+    width: 100%;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .hero .btns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.3rem 1rem;
+    gap: 0.5rem;
+    margin-top: -1.5rem;
+  }
+
+  .hero .btns button {
+    font-size: 1.2rem;
+  }
+}
