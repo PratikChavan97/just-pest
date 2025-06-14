@@ -39,7 +39,7 @@ function ChooseUS() {
           <Col xs={12} md="4">
             <form>
               <div className="hero-form-header">
-                <h3 className="h2">Book Your Service</h3>
+                <h3 className="h1">Book Your Service</h3>
               </div>
               <div className="input-first">
                 <div>

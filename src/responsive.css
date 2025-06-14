@@ -1,0 +1,77 @@
+@media screen and (max-width: 605px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .header-top {
+    display: none;
+  }
+
+  .services .service-card {
+    margin-bottom: 4rem;
+  }
+
+  .service-card button {
+    display: block;
+    margin: -3.5rem auto 0 auto;
+  }
+
+  /* Contact PAGE */
+  .contact .contact-container {
+    margin-bottom: 3rem;
+  }
+
+  .other-services select {
+    border: 1px inset black;
+  }
+
+  .hero h3 {
+    font-size: 2.5rem;
+    margin-left: -6rem;
+  }
+
+  .hero p {
+    font-size: 1.4rem;
+    margin-left: -6rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero .btns {
+    display: flex;
+    flex-direction: column;
+    margin-left: -6rem;
+    width: 80%;
+  }
+
+  .hero .btns button {
+    font-size: 1.3rem;
+  }
+
+  .choose .choose-img {
+    width: 30rem;
+    display: block;
+    margin: 1rem auto 3rem auto;
+  }
+
+  .choose .choose-why {
+    margin-bottom: 3rem;
+  }
+
+  .small-card div:last-child {
+    /* margin-left: -1.5rem; */
+  }
+
+  .services-card {
+    padding: 2rem 0;
+  }
+
+  .services-card .inner-servces-card {
+    margin-bottom: 2rem;
+  }
+
+  .qualities {
+    padding: 2rem;
+  }
+}

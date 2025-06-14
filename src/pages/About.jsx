@@ -9,7 +9,11 @@ function About() {
       <BreadcrumbApp>About</BreadcrumbApp>
       <Row className="about gx-5">
         <Col xs={12} lg="6" md="12">
-          <img src="/assets/images/ser-2.jpg" alt="ser-2" />
+          <img
+            src="/assets/images/ser-2.jpg"
+            alt="ser-2"
+            className="img-fluid mb-4"
+          />
         </Col>
         <Col xs={12} lg="6" md="12">
           <h4>Who we are?</h4>
@@ -29,7 +33,11 @@ function About() {
 
       <Row className="about-2 gx-5">
         <Col xs={12} lg="6" md="12">
-          <img src="/assets/images/ser-1.jpg" alt="ser-1" />
+          <img
+            src="/assets/images/ser-1.jpg"
+            alt="ser-1"
+            className="img-fluid mb-4"
+          />
         </Col>
         <Col xs={12} lg="6" md="12">
           <h2>We Are Among The Best Pest Control Company in India</h2>

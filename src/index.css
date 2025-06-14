@@ -257,7 +257,7 @@ form button:hover {
   align-items: center;
   gap: 20px;
   padding: 5px 20px;
-  max-width: 15%;
+  /* max-width: 15%; */
 }
 
 .inner-card img {
@@ -293,15 +293,15 @@ form button:hover {
 }
 
 .inner-service-card {
-  margin: 0 auto;
+  margin: 1rem auto 2rem;
   padding: 10px 0;
-  height: 250px;
+  /* height: 250px; */
   /* width: 33%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* gap: 1rem; */
+  gap: 1rem;
   /* background-color: var(--text-secondary); */
   border: 3px solid var(--heading-text-color);
   gap: 1rem;
@@ -330,6 +330,7 @@ form button:hover {
 
 .inner-service-card p {
   width: 70%;
+  font-size: 1.3rem;
 }
 /* Service-card: end */
 

@@ -33,7 +33,7 @@ function Footer() {
           <h3>Quick Links</h3>
           <div className="footer-links">
             <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
+            <Link to="about">About</Link>
             <Link to="services">Services</Link>
             <Link to="contact">Contact Us</Link>
           </div>
@@ -41,15 +41,9 @@ function Footer() {
         <Col xs={12} lg="3" md="4">
           <h3>Our Services</h3>
           <div className="footer-links">
-            <Link to="#" target="_blank">
-              Pest Control
-            </Link>
-            <Link to="#" target="_blank">
-              Vector Control
-            </Link>
-            <Link to="#" target="_blank">
-              Rodents Control
-            </Link>
+            <Link to="services/pest-control">Pest Control</Link>
+            <Link to="services/vector-control">Vector Control</Link>
+            <Link to="services/rodent-control">Rodents Control</Link>
           </div>
         </Col>
         <Col xs={12} lg="3" md="12">

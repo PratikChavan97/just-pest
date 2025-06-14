@@ -53,6 +53,7 @@ function Contact() {
             </div>
           </Col>
           <Col xs={12} lg="6" md="12">
+            <h3 className="text-center h1">Send us a Query</h3>
             <form>
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" placeholder="Name" />

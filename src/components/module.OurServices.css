@@ -45,7 +45,6 @@
 }
 
 .service-card button {
-  position: relative;
-
   padding: 1rem 4rem;
+  margin-top: -1rem;
 }
